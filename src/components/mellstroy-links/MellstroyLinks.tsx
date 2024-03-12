@@ -1,6 +1,5 @@
 import styles from "./MellstroyLinks.module.scss";
 import telelogo from "../../assets/telelogo.svg";
-import xlogo from "../../assets/xlogo.svg";
 import inst from "../../assets/insticon.svg";
 import kick from "../../assets/Kick.svg";
 import tiktok from "../../assets/tiktok.svg";
