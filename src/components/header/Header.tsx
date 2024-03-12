@@ -1,13 +1,13 @@
 import styles from "./Header.module.scss";
 import logo from "../../assets/logo.jpg";
-import React, { useState } from "react";
-import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import { useState } from "react";
+import { Link } from 'react-scroll';
 import { useTranslation } from 'react-i18next';
 
 const Header = () => {
   const { t, i18n } = useTranslation();
 
-  const changeLanguage = (lng) => {
+  const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
   };
 

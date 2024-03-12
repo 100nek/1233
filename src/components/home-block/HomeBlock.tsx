@@ -1,5 +1,4 @@
 import styles from "./HomeBlock.module.scss";
-import React from "react";
 import logo from "../../assets/logo.jpg";
 import unilogo from "../../assets/unilogo.svg";
 import romblogo from "../../assets/romblogo.svg";
